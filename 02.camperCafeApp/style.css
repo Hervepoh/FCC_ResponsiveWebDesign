@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --front-color : #000;
+    --back-color : #000;
+}
+
+body{
+    background-color: #fff;
+}
+h1, h2 {
+    font-family: Impact, serif;
+    text-align: center;
+}
+
+.container{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: burlywood;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    margin: 0 auto;
+    width: 70%;
+    height: 2px;
+    background-color: red;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: none;
+}
+
+main{
+    margin: 0 auto;
+    width: 70%;
+  
+}
+
+footer {
+    text-align: center;
+}
